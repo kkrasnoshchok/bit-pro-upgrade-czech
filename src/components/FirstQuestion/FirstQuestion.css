@@ -1,0 +1,42 @@
+.quiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: rgba(236, 240, 245, 1);
+}
+
+.quizPage {
+  height: 90vh;
+}
+
+.quizInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 90vh;
+  padding: 0px 12px;
+}
+
+.quizQuestion {
+  text-align: center;
+  background: #fff;
+}
+
+.question {
+  padding: 30px 13px;
+  margin-top: 10px;
+
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, .2);
+}
+
+.questionTitle {
+  font-size: 18px;
+}
+
+.quizAnswers {
+  margin-top: 20px;
+}
